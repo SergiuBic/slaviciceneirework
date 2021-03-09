@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: '/slaviciceneirework/',
+  publicPath: '/',
   transpileDependencies: [
     'vuetify'
   ]
