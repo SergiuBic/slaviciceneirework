@@ -57,7 +57,7 @@ export default {
      },
     mounted () {
     axios
-      .get('http://slavicidashboard.herokuapp.com/')
+      .get('https://slavicidashboard.herokuapp.com/')
       .then(response => {this.apiData = response.data, this.apiData.shift()})
       .catch(error => {
         console.log(error)
